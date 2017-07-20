@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>José Guerrero</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">José Guerrero</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown hidden-xs hidden-sm hidden-md hidden-lg">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                          Idioma <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu bg-blue-marine">
+                          <li><a href="#">Español</a></li>
+                          <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre Mi</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <div id="carousel" class="carousel slide transparent-black-layer" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+        
+        <!-- Carousel slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="" src="img/programming.jpg" alt="programador">
+            </div>
+            <div class="item">
+                <img src="img/google-datacenter.jpg" alt="servidores">
+            </div>
+            <div class="item">
+                <img src="img/piano.jpg" alt="piano">
+            </div>
+            <div class="item">
+                <img src="img/film-camera.jpg" alt="camara-filmacion">
+            </div>
+        </div>
+        <!-- Controls 
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+        -->
+    </div>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h2 id="homeHeading">
+                    <img class="profile-photo img-circle center-block" src="img\profile-photo.jpg">
+                </h2>
+                <hr>
+                <p>Estudiante de Ingeniería en Informática. Apasionado por un mundo de tecnología. Viviendo en formato de 35mm y con soundtrack en el aire. Cristiano. Tengo 23 años y soy de Barquisimeto - Venezuela, Nawara!</p>
+                <blockquote>
+                    Si lo puedes imaginar, lo puedes programar.
+                    <footer>José Guerrero</footer>
+                </blockquote>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Conoce Más</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Sobre Mi</h2>
+                    <hr class="light">
+                    <p class="text-faded"></p>
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-pills nav-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#formacion" class="btn btn-default btn-xl" role="tab" data-toggle="tab" aria-controls="formacion"><span class="fa fa-book"></span> Formación</a></li>
+
+                    <li role="presentation" class=""><a href="#habilidades" class="btn btn-default btn-xl" role="tab" data-toggle="tab" aria-controls="habilidades"><span class="fa fa-cogs"></span> Habilidades</a></li>
+                  </ul>
+                  <!-- Tabs panels -->
+                  <div class="tab-content">
+                    <div id="formacion" role="tabpanel" class="formacion tab-pane active text-center">
+                      <ul class="list-unstyled">
+                        <li>
+                          <h3><strong>Ingeniería en Informática</strong></h3>
+                          <ul class="list-unstyled text-left">
+                            <li>2012 - Actualmente 9no Semestre</li>
+                            <ul class="list-unstyled">
+                              <li>UCLA <em>"Universidad Centroocidental Lisandro Alvarado"</em></li>
+                              <li>Barquisimeto, Venezuela</li>
+                            </ul>
+                          </ul>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                          <h3><strong>CISCO CCNA Routing & Switching</strong></h3>
+                          <ul class="list-unstyled text-left">
+                            <li>2015 - Introducción a redes</li>
+                            <li>2015 - Principios básicos de routing y switching</li>
+                            <ul class="list-unstyled">
+                              <li>Academia Cisco System, UFT <em>“Universidad Fermín Toro”</em></li>
+                              <li>Cabudare, Venezuela</li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>    
+                    </div>
+                    
+                    <div id="habilidades" role="tabpanel" class="habilidades col-xs-12 col-md-12 tab-pane">
+                      <div id="accordion" role="tablist" class="panel-group" aria-multiselectable="true">
+                        <div class="panel panel-default" style="margin-top: 5px;">
+                          <div id="headingProg" role="tab" class="panel-heading">
+                            <h3 class="panel-title"> 
+                          <a href="#collapseProg" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseProg"><span class="fa fa-laptop fa-lg"></span> Programación</a>
+
+                            </h3>  
+
+                          </div>
+                          <div id="collapseProg" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingProg">
+                            <div class="panel-body">
+                              <ul class="list-unstyled">
+
+                                <li>
+                                  C/C++
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                      <span>Intermedio</span>
+                                    </div> <!-- div progress-bar -->
+                                  </div> <!-- div progress -->
+                                </li>
+                                
+                                <li>
+                                  Java 
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                      <span>Intermedio</span>
+                                    </div> <!-- div progress -->
+                                  </div>  <!-- div progress-bar -->                       
+                                </li>
+
+                                <li>
+                                  Ruby
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:35%;">
+                                      <span>Basico</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                  
+                                <li>
+                                  Shell Scripting con Bash
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:45%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  Aplicaciones de Escritorio con JavaSE + Swing
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                
+                                <li>
+                                  Diseño Web con HTML5, CSS3 + Bootstrap, Javascript + JQuery                    
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+
+                                <li>                         
+                                  Aplicaciones Web con JavaEE + JSP + Servlets
+                                                        
+                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:35%;">
+                                        <span>Basico</span>
+                                      </div>
+                                    </div>
+                                  
+                                </li>
+                              </ul>    
+                            </div>
+                          </div>
+                              
+                        </div>  
+                        <div class="panel panel-default">
+                          <div id="headingBD" class="panel-heading" role="tab">
+                            <h3 class="panel-title">
+                              <a href="#collapseBD" role="button" data-toggle="collapse" data-parent="accordion" aria-expanded="false" aria-controls="collapseBD"><span class="fa fa-database"></span> Bases de Datos
+                              </a>
+                            </h3>      
+                          </div>
+                          <div id="collapseBD" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingBD">
+                            <div class="panel-body">
+                              <ul class="list-unstyled">
+                                <li>
+                                  SQL (DML, DDL, Joins, Subconsultas)
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  Diseño de Bases de Datos relacionales
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                                      <span>Intermedio-Avanzado</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  PostgreSQL
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  ORM Hibernate
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:35%;">
+                                      <span>Basico</span>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div id="headingRedes" class="panel-heading" role="tab">
+                            <h3 class="panel-title">
+                              <a href="#collapseRedes" role="button" data-toggle="collapse" data-parent="accordion" aria-expanded="false" aria-controls="collapseRedes"><span class="fa fa-wifi"></span> Redes
+                              </a>
+                            </h3>      
+                          </div>
+                          <div id="collapseRedes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRedes">
+                            <div class="panel-body">
+                              <ul class="list-unstyled">
+                                <li>
+                                  Esquemas de direccionamiento IPv4 e IPv6
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                      <span>Avanzado</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  Redes LAN Ethernet mediante switches y routers
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  VLAN
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:40%;">
+                                      <span>Basico</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  Protocolos de enrutamiento
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:40%;">
+                                      <span>Basico</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  ACL con IPv4 e IPv6
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  NAT para IPv4
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
+                                      <span>Intermedio</span>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> 
+
+                    <a href="#services" class="page-scroll btn btn-black btn-xl sr-button">Continua</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Servicios</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
+                        <h3>Aplicaciones Académicas</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+                        <h3>Sistemas de información de Escritorio</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-file-code-o text-primary sr-icons"></i>
+                        <h3>Diseño y Maquetación Web</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wifi text-primary sr-icons"></i>
+                        <h3>Implementación de Redes LAN</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Valores</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-star text-primary sr-icons"></i> 
+                        <h3>Compromiso con la Calidad</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-group text-primary sr-icons"></i> 
+                        <h3>Comunicacion Efectiva</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>                      
+                        <h3>Trabajo con Pasión</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-coffee text-primary sr-icons"></i> 
+                       
+                        <h3>Y unas cuantas Tazas de Café</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portafolio</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/tractoagro.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/tractoagro.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Diseño y Maquetación Web
+                                </div>
+                                <div class="project-name">
+                                    Tractoagro Barquisimeto
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/kaizenware.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/kaizenware.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Diseño y Maquetación Web
+                                </div>
+                                <div class="project-name">
+                                    Kaizenware
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4a.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Placeholder
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Consigueme en Redes Sociales</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+
+                        <li>
+                            <a href="https://twitter.com/guerrero_josea" target="_blank" class="btn btn-primary btn-lg btn-social"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/guerrero_josea" target="_blank" class="btn btn-primary btn-lg btn-social"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/josea-guerrero" target="_blank" class="btn btn-primary btn-lg btn-social"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+
+                        <li>
+                            <a href="https://freecodecamp.com/josea-guerrero" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-free-code-camp fa-fw btn-social"></i> <span class="network-name">Free Code Camp</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.workana.com/freelancer/fa464c18b44698a4f0ad3a2106cb9cdb" target="_blank" class="btn btn-primary btn-lg btn-social">
+                                <div  id="workana" class="row">
+                                    <div class="col-xs-4 workana-icon">
+                                        <img src="img/workana-icon.png" alt="workana" class="img-responsive ">
+                                    </div>
+                                    <div class="col-xs-4 workana-text">
+                                        <span class="network-name">Workana</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contáctame</h2>
+                    <hr class="primary">
+                    <p>¿Deseas comunicarte conmigo? Puedes dejarme tu mensaje a través del siguiente formulario y hacer consultas profesionales, contratarme para proyectos, conocer más sobre mi, sobre mi trabajo o sobre mi experiencia en programación y te responderé lo más pronto posible.</p> 
+                    <p>Incluso podemos charlar de artes, películas recientes y otras no tanto, series de television, libros, videojuegos, cómo resolver el cubo de rubik, cómo es Venezuela o lo que sea.</p>
+                    <div class="text-center">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p><a href="mailto:guerrero.c.jose.a@gmail.com">guerrero.c.jose.a@gmail.com</a></p>
+                    </div>
+                    <!-- 
+                    <a href="#contact-form" class="btn btn-default btn-xl sr-button" data-toggle="modal">
+                        <i class="fa fa-envelope fa-2x sr-contact"></i> Abrir Formulario
+                    </a>
+                    -->
+                </div>
+        
+        <div id="contact-form" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Header de la ventana contacto -->
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="fa fa-times"></span></button>
+                  <h3 class="modal-tittle text-center">Contáctame</h3>
+                </div>
+                <!-- Formulario de la ventana contacto -->
+                <div class="modal-body">
+                <div class="col-xs-12">
+                  <form>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input id="name" type="text" class="form-control" placeholder="Nombre y Apellido" required="true">  
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo</label>
+                        <input id="email" type="email" class="form-control" placeholder="ejemplo@gmail.com" required="true">
+                      
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input id="subject" type="text" class="form-control" placeholder="Tema del mensaje" required="true">  
+                    </div>
+                    
+                    <div class="form-group">
+                      
+                        <label class="control-label">Mensaje: </label>
+                        <textarea id="message" class="form-control" placeholder="Escribe tu mensaje" rows="5" cols="100" required="true"></textarea>    
+                      
+                    </div>
+                    <!--                 
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    -->
+                  </form>
+                                
+                </div>
+                  <!-- Footer de la ventana contacto -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><span class="fa fa-times"></span> Cerrar</button>
+                    <button type="submit" class="btn btn-success"><span class="fa fa-send"></span> Enviar</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+        </div> <!-- modal -->
+                
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
